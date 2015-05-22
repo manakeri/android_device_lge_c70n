@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
 
 PRODUCT_COPY_FILES += \
-    device/lge/c70n/init.recovery.c70n.rc:/init.recovery.c70n.rc
+    device/lge/c70n/init.recovery.c70n.rc:root/init.recovery.c70n.rc
 
 $(call inherit-product, build/target/product/full.mk)
 
